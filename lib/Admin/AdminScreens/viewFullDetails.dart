@@ -198,7 +198,7 @@ class ViewFullDetails extends StatelessWidget {
                         onPressed: (){
                           provider.rejectBokking(provider.rentalId);
                           callNext(context, ViewBooking());
-                        }, child: Text("Cancel",style: TextStyle(
+                        }, child: Text("Save &Submit",style: TextStyle(
                         color: backColor,
                         fontWeight: FontWeight.bold,
                         fontSize: 17

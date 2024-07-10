@@ -527,7 +527,8 @@ class Addvehicle extends StatelessWidget {
                                   val.AddVehicle(context, "Edit", toId);
                                 }
                               }else{
-                                ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Center(child: Text("Upload minimum 3 Images",
+                                ScaffoldMessenger.of(context).showSnackBar(const
+                                SnackBar(content: Center(child: Text("Upload minimum 3 Images",
                                   style: TextStyle(color: Colors.red),
                                 )),
                                   backgroundColor: Colors.white54,
